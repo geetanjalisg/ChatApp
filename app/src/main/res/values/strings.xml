@@ -3,5 +3,9 @@
     <string name="welcome_text">Welcome</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
+    <string name="enter_username_here">Enter Username Here</string>
+    <string name="_textview">Login</string>
+    <string name="enter_password_here">Enter Password Here</string>
+    <string name="password_login">Password</string>
 
 </resources>
