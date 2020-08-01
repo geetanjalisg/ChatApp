@@ -14,25 +14,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button registerButton = findViewById(R.id.register_btn);
-        Button loginButton = findViewById(R.id.login_btn);
+       // Button loginButton = findViewById(R.id.login_btn);
 
-        loginButton.setOnClickListener(new View.OnClickListener() {
+      /*  loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent login_intent = new Intent(getApplicationContext(), LoginScreen.class);
                 startActivity(login_intent);
             }
-        });
+        });*/
 
-        registerButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent registration_intent = new Intent(getApplicationContext(),
-                        RegistrationScreen.class);
-                startActivity(registration_intent);
-            }
-        });
+
     }
 
+    public void launchRegistrationScreen(View view) {
+        Intent intent=new Intent(this,RegistrationScreen.class);
+        startActivity(intent);
+    }
 }

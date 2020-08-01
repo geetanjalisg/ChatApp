@@ -7,5 +7,8 @@
     <string name="_textview">Login</string>
     <string name="enter_password_here">Enter Password Here</string>
     <string name="password_login">Password</string>
+    <string name="textview_register">TextView</string>
+    <string name="login_text_forbtn">LOGIN</string>
+    <string name="textforegisterTxtView">Register if you don\'t have an account</string>
 
 </resources>
