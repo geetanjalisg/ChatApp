@@ -6,7 +6,11 @@
     <string name="enter_username_here">Enter Username Here</string>
     <string name="_textview">Login</string>
     <string name="enter_password_here">Enter Password Here</string>
+    <string name="choose_username">Choose Username</string>
     <string name="password_login">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_email_id">Enter Email ID</string>
+    <string name="register">REGISTER</string>
     <string name="textview_register">TextView</string>
     <string name="login_text_forbtn">LOGIN</string>
     <string name="textforegisterTxtView">Register if you don\'t have an account</string>
