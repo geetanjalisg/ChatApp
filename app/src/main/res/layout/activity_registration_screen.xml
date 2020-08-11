@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/background_color"
     tools:context=".RegistrationScreen">
 
     <EditText
@@ -52,7 +52,7 @@
         android:backgroundTint="@color/colorPrimary"
         android:drawableStart="@drawable/icon_password"
         android:ems="10"
-        android:hint="@string/password"
+        android:hint="@string/password_login"
         android:inputType="textPassword"
         android:textColor="#9F9898"
         android:textColorHint="#DF958E8E"
@@ -84,7 +84,7 @@
         android:layout_width="309dp"
         android:layout_height="34dp"
         android:background="@drawable/custom_button"
-        android:text="@string/registernow"
+        android:text="@string/register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
